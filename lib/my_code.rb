@@ -17,7 +17,11 @@ end
 
 
 def map_to_double(source_array)
-  
+  counter = 0
+  while counter < source_array.length
+    source_array[counter] *= 2
+  end
+  source_array
 end
 
 

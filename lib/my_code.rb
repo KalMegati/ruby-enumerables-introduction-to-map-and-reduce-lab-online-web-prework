@@ -13,7 +13,6 @@ def map_to_no_change(source_array)
     new_array.push(source_array[index])
   end
   new_array
-  p new_array
 end
 
 

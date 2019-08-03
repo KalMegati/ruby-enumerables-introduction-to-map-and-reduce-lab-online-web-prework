@@ -60,6 +60,6 @@ def reduce_to_any_true(source_array)
       return true
       break
     end
-    false
+    return false
   end
 end

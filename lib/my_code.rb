@@ -48,8 +48,8 @@ end
 
 def reduce_to_all_true(source_array)
   source_array.length.times do |index|
-    if source_array[index] == FALSE
-      FALSE
+    if source_array[index] == false
+      false
     end
   end
 end

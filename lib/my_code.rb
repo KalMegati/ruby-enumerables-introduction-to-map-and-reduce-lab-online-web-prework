@@ -58,6 +58,7 @@ def reduce_to_any_true(source_array)
   source_array.length.times do |index|
     if source_array[index]
       return true
+      break
     end
     false
   end

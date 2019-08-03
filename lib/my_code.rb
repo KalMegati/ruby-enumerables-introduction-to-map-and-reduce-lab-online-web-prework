@@ -27,7 +27,7 @@ end
 
 
 def map_to_square(source_array)
-  counter = 0 
-  for counter in source_array.length do
+  square_array = []
+  for n in 0...source_array.length do
     
 end
